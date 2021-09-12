@@ -1,0 +1,146 @@
+.becomeAnArtist{
+    width: 75vw;
+    height: 30vw;
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(232, 230, 230);
+    border-radius: 10px;
+    box-shadow: rgba(232, 230, 230, 0.6) 0px 0px 4px 1px;
+}
+
+.becomAnArtist_backgroundImgCont {
+    width: 53%;
+    height: 100%;
+    background-image: url(../../Assets/Images/jumping_dancer.webp);
+    background-blend-mode: color;
+    background-color: rgba(5, 123, 153, 0.137);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(150%) contrast(85%) blur(0.7px);
+}
+
+.becomAnArtist_textBtnCont {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6.5%;
+}
+
+.becomAnArtist_heading {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.becomAnArtist_text {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.becomAnArtist_btn {
+    max-width: 204px;
+    width: 50%;
+    height: 40px;
+    font-size: 15px !important;
+    font-weight: 200;
+    color: #ffffff;
+    background-color: #7eccc5;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+
+.becomAnArtist_btn:hover {
+    background-color: #5da699;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .becomeAnArtist{
+        width: 80%;
+        height: 35vw;
+    }
+    
+    .becomAnArtist_heading {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .becomeAnArtist{
+        width: 90%;
+        height: 80vw;
+        min-height: 550px;
+        flex-direction: column;
+    }
+    
+    .becomAnArtist_backgroundImgCont {
+        width: 100%;
+        height: 55%;
+    }
+
+    .becomAnArtist_textBtnCont {
+        width: 100%;
+        height: 45%;
+    }
+    
+    .becomAnArtist_heading {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .becomAnArtist_heading {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .becomAnArtist_heading {
+        font-size: 25px;
+    }
+
+    .becomAnArtist_text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .becomAnArtist_heading {
+        font-size: 23px;
+    }
+
+    .becomAnArtist_btn {
+        width: 60%;
+    }
+
+    .becomAnArtist_text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    
+    .becomAnArtist_heading {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    
+    .becomAnArtist_heading {
+        font-size: 18px;
+    }
+}

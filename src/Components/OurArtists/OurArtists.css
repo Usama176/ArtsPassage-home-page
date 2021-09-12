@@ -1,0 +1,276 @@
+.ourArtists {
+    width: 86%;
+    margin: 50px auto;
+}
+
+.ourArtists_title {
+    font-size: 30px;
+    font-weight: 200;
+    color: #5da699;
+    margin: 13px;
+}
+
+.ourArtists_cardsCont {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: -6px;
+}
+
+.ourArtists_card {
+    width: 19vw;
+    height: 18.5vw;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.ourArtists_cardTitleCont {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: inherit;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.ourArtists_cardTitleCont:hover {
+    background-color: #5da69923 !important;
+}
+
+.ourArtists_cardTitle {
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.212);
+}
+
+.ourArtists_cardImgCont {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.ourArtists_cardImg {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    -webkit-filter: grayscale(100%) !important;
+    filter: grayscale(100%) !important;
+    z-index: 0;
+}
+
+.ourArtists_circleIconCont {
+    background-color: transparent !important;
+    position: absolute;
+    width: 100%;
+    height: 44.2vw;
+    top: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.ourArtists_circleIcon {
+    width: 27px;
+    height: 28px;
+}
+
+.ourArtists_linkCont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourArtists_link {
+    margin-top: -18px;
+    margin-right: 1.5%;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+/* Adding breakpoints */
+
+@media screen and (max-width: 1050px) {
+    .ourArtists {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .ourArtists_cardsCont {
+        height: 62vw;
+        overflow: hidden;
+    }
+
+    .ourArtists_card {
+        width: 27vw;
+        max-width: none;
+        height: 26.5vw;
+        max-height: none;
+    }
+
+    .ourArtists_circleIconCont {
+        display: none;
+    }
+    
+    .ourArtists_circleIcon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .ourArtists {
+        width: 90%;
+    }
+
+    .ourArtists_cardsCont {
+        height: 138vw;
+        overflow: hidden;
+    }
+
+    .ourArtists_card {
+        width: 41vw;
+        height: 40.5vw;
+        margin: 20px 2%;
+    }
+
+}
+
+@media screen and (max-width: 705px) {
+
+    .ourArtists_cardsCont {
+        height: 141vw;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .ourArtists {
+        width: 85%;
+        text-align: center;
+    }
+    
+    .ourArtists_cardsCont {
+        width: 100%;
+        height: 495vw;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .ourArtists_card {
+        width: 75vw;
+        height: 74.5vw;
+        margin: 20px auto;
+    }
+
+    .ourArtists_linkCont {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .ourArtists_link {
+        margin-right: 5.5%;
+    }
+
+}
+
+@media screen and (max-width: 488px) {
+    
+    .ourArtists_cardsCont {
+        height: 502vw;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .ourArtists {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .ourArtists_cardsCont {
+        width: 100%;
+        height: 573vw;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .ourArtists_card {
+        width: 85vw;
+        height: 85vw;
+        margin: 20px 15px;
+    }
+
+}
+
+@media screen and (max-width: 372px) {
+
+    .ourArtists_cardsCont {
+        height: 583vw;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .ourArtists_cardsCont {
+        height: 587vw;
+    }
+
+    .ourArtists_card {
+        margin: 20px 15px;
+    }
+
+}
+
+@media screen and (max-width: 305px) {
+
+    .ourArtists_cardsCont {
+        height: 598vw;
+    }
+
+}
+
+@media screen and (max-width: 274px) {
+
+    .ourArtists_cardsCont {
+        height: 608vw;
+    }
+
+}
+
+@media screen and (max-width: 250px) {
+
+    .ourArtists_cardsCont {
+        height: 615vw;
+    }
+
+}
+
+@media screen and (max-width: 225px) {
+
+    .ourArtists_cardsCont {
+        height: 625vw;
+    }
+
+}

@@ -1,0 +1,389 @@
+.locationsCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    overflow-x: hidden;
+}
+
+.locations {
+    width: 87%;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.locations_title {
+    font-size: 32px;
+    font-weight: 200;
+    color: #000000;
+}
+
+.locations_contentCont {
+    display: flex;
+    align-items: center;
+    margin-top: -13px;
+}
+
+.locations_contentMap {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 15px 0;
+}
+
+.locations_contentMapCardLg {
+    min-width: 27.6vw;
+    width: 28vw !important;
+    height: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid rgb(232, 230, 230);
+    border-radius: 10px;
+    box-shadow: rgba(232, 230, 230, 0.6) 0px 0px 4px 1px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.locations_sliderAndBtnCont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 73%;
+    height: inherit;
+}
+
+.locations_sliderCont {
+    width: inherit;
+    width: inherit;
+}
+
+.locations_slides {
+    width: 13.7vw !important;
+    height: 13.6vw !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 10px auto !important;
+    border: 1px solid rgb(232, 230, 230);
+    border-radius: 10px;
+    box-shadow: rgba(232, 230, 230, 0.6) 0px 0px 4px 1px;
+    border-radius: 5px;
+}
+
+/* class is from the documentation of slick slider */
+.slider {
+    width: inherit !important;
+    height: inherit !important;
+}
+
+.locations_slidesText {
+    font-size: 16px;
+    font-weight: 200;
+    color: #000000;
+}
+
+.locations_silderBtn {
+    width: 49px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5bc2b1d8;
+    margin-left: 7px;
+    border: 1px solid #5bc2b1;
+    border-radius: 50%;
+    outline: none;
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+}
+
+.locations_silderBtn:hover {
+    background-color: #5da699;
+}
+
+.locations_silderBtnIcon {
+    width: 28px;
+    margin-right: -2px;
+    transform: rotate(90deg);
+}
+
+.locations_contentBirdIconCont {
+    margin-top: -200px;
+    margin-left: -30px;
+}
+
+.locations_contentBirdIcon {
+    width: 56px;
+    height: 82px;
+}
+
+/* Adding breakpoints */
+
+@media screen and (max-width: 1200px) {
+    .locations {
+        width: 90%;
+    }
+
+    .locations_contentMapCardLg {
+        min-width: 29vw;
+        width: 29vw !important;
+        height: 30.7vw;
+    }
+
+    .locations_sliderAndBtnCont {
+        width: 74%;
+    }
+    
+    .locations_slides {
+        width: 14.7vw !important;
+        height: 14.7vw !important;
+    }
+
+    .locations_silderBtn {
+        min-width: 37px;
+        width: 37px;
+        height: 37px;
+    }
+
+    .locations_silderBtnIcon {
+        width: 21px;
+    }
+
+    .locations_contentBirdIconCont {
+        margin-top: -180px;
+    }
+
+    .locations_contentBirdIcon {
+        width: 52px;
+        height: 78px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .locations_contentMap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .locations_contentMapCardLg {
+        min-width: 75.7vw;
+        width: 76vw !important;
+        height: 40vw;
+    }
+
+    .locations_sliderAndBtnCont {
+        width: 93%;
+    }
+
+    .locations_slides {
+        width: 24vw !important;
+        height: 20vw !important;
+        margin-left: 3px !important;
+    }
+
+    .locations_contentBirdIconCont {
+        margin-top: -230px;
+        margin-right: auto;
+        margin-left: -70px;
+    }
+
+    .locations_contentBirdIcon {
+        width: 52px;
+        height: 78px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .locations {
+        width: 95%;
+    }
+
+    .locations_contentMapCardLg {
+        min-width: 79vw;
+        width: 79vw !important;
+        height: 40vw;
+    }
+    
+    .locations_sliderAndBtnCont {
+        width: 92%;
+    }
+
+    .locations_slides {
+        width: 25vw !important;
+        height: 20vw !important;
+        margin-left: 3px !important;
+    }
+
+    .locations_silderBtn {
+        min-width: 33px;
+        width: 30px;
+        height: 33px;
+        margin-left: 2px;
+    }
+
+    .locations_silderBtnIcon {
+        width: 21px;
+    }
+
+    .locations_contentBirdIconCont {
+        margin-top: -230px;
+        margin-right: auto;
+        margin-left: -65px;
+    }
+
+    .locations_contentBirdIcon {
+        width: 50px;
+        height: 76px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .locationsCont {
+        justify-content: center;
+    }
+
+    .locations {
+        width: 95%;
+        text-align: center;
+    }
+
+    .locations_contentCont {
+        margin-top: 20px;
+    }
+
+    .locations_contentMapCardLg {
+        min-width: 82vw;
+        width: 82vw !important;
+        height: 45vw;
+    }
+
+    .locations_sliderAndBtnCont {
+        width: 94%;
+    }
+
+    .locations_slides {
+        width: 39.5vw !important;
+        height: 26vw !important;
+    }
+
+    .locations_silderBtn {
+        min-width: 31px !important;
+        width: 31px;
+        height: 31px;
+        margin-left: 2px;
+    }
+
+    .locations_silderBtnIcon {
+        width: 20px;
+        margin: 0;
+    }
+
+    .locations_contentBirdIconCont {
+        margin-top: -230px !important;
+        margin-left: -47px;
+    }
+
+    .locations_contentBirdIcon {
+        width: 45px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .locationsCont {
+        justify-content: center;
+    }
+
+    .locations {
+        width: 97%;
+    }
+
+    .locations_contentMapCardLg {
+        min-width: 85vw;
+        width: 85vw !important;
+        height: 50vw;
+        margin-left: 3px !important;
+    }
+
+    .locations_sliderAndBtnCont {
+        width: 95%;
+    }
+
+    .locations_slides {
+        width: 40.5vw !important;
+        height: 28vw !important;
+        margin-left: 5px !important;
+    }
+
+    .locations_silderBtn {
+        min-width: 28px !important;
+        height: 28px;
+        margin-left: auto;
+    }
+
+    .locations_silderBtnIcon {
+        width: 19px;
+        margin-right: -2px;
+    }
+
+    .locations_contentBirdIconCont {
+        margin-left: -36px;
+    }
+
+    .locations_contentBirdIcon {
+        width: 35px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .locationsCont {
+        justify-content: center;
+    }
+
+    .locations {
+        width: 98%;
+    }
+
+    .locations_contentMapCardLg {
+        min-width: 80vw;
+        width: 80vw !important;
+        height: 50vw;
+        margin-left: 3px !important;
+    }
+
+    .locations_sliderAndBtnCont {
+        width: 94%;
+    }
+
+    .locations_slides {
+        width: 79vw !important;
+        height: 30vw !important;
+        margin-left: 5px !important;
+    }
+
+    .locations_silderBtn {
+        min-width: 28px !important;
+        height: 28px;
+        margin-left: auto;
+    }
+
+    .locations_silderBtnIcon {
+        width: 18px;
+    }
+
+    .locations_contentBirdIconCont {
+        margin-left: -39px;
+    }
+
+}

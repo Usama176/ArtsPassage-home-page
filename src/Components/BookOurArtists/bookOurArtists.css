@@ -1,0 +1,94 @@
+.bookOurAritists {
+    width: 65%;
+    height: 318px;
+    margin: 0 auto;
+}
+
+.bookOurAritists_backgroundImgBtnCont {
+    width: 100%;
+    height: 318px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url(../../Assets/Images/concert_hall.jpg);
+    background-blend-mode: color;
+    background-color: rgba(228, 226, 226, 0.144);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(112%);
+    filter: contrast(97%);
+}
+
+.bookOurAritists_Btn {
+    width: 27%;
+    height: 50px;
+    margin-top: -4%;
+    background-color: #7cd4cdf3;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.075);
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+}
+
+.bookOurAritists_Btn:hover {
+    background-color: #5da699;
+}
+
+/* Adding breakpoints */
+
+@media screen and (max-width: 1100px) {
+    .bookOurAritists {
+        width: 75%;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bookOurAritists {
+        width: 80%;
+        height: 260px;
+    }
+
+    .bookOurAritists_Btn {
+        width: 40%;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bookOurAritists {
+        width: 80%;
+        height: 250px;
+    }
+
+    .bookOurAritists_Btn {
+        width: 50%;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bookOurAritists {
+        width: 85%;
+    }
+
+    .bookOurAritists_Btn {
+        width: 60%;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .bookOurAritists_Btn {
+        width: 70%;
+        height: 45px;
+    }
+}

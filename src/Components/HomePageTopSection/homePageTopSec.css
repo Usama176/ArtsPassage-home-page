@@ -1,0 +1,368 @@
+.homePageTopSec_background {
+  width: 100%;
+  height: 46vw;
+  max-height: 626px !important;
+  min-height: 300px !important;
+  background-image: url(../../Assets/Images/artspassage_home_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgba(96, 97, 99, 0.158);
+}
+
+.homePageTopSec_shadowEffectTop {
+  margin-top: 1.5px !important;
+  height: 26px;
+  box-shadow: rgba(96, 97, 99, 0.123) 0px 30px 12px -20px inset;
+}
+
+.homePageTopSec_shadowEffectBottom {
+  margin-top: -4px;
+  height: 26px;
+  box-shadow: rgba(96, 97, 99, 0.123) 0px 34px 13px -20px inset;
+}
+
+.homePageTopSec_content {
+  margin-left: 11%;
+  padding-top: 9%;
+}
+
+.homePageTopSec_searchBarHeading {
+  font-size: 16px;
+  color: #5da699;
+  margin-left: 30px;
+}
+
+.homePageTopSec_searchBar {
+  max-width: 881px;
+  width: 74.2%;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px;
+  padding: 0 8px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.homePageTopSec_searchBarInputCont {
+  width: 23%;
+  height: inherit;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.homePageTopSec_searchBarInput {
+  width: 70%;
+  height: inherit;
+  margin-left: 10px;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #363333;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: color 0.3s ease-in;
+}
+
+.homePageTopSec_searchBarDateInput {
+  width: 90%;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.homePageTopSec_searchBarInput::placeholder {
+  font-size: 17px;
+  color: #363333;
+  margin-left: 10px;
+}
+
+.homePageTopSec_searchBarInput:hover {
+  color: #757575;
+}
+
+.homePageTopSec_searchBarInputIcons {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
+
+.homePageTopSec_searchBarSearchBtn {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: #5bc2b1bd;
+  outline: none;
+  border: 1px solid #5bc2b1;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+.homePageTopSec_searchBarSearchBtn:hover {
+  background-color: #5da699;
+}
+
+.homePageTopSec_searchBarSearchBtnIcon {
+  width: 20px;
+  height: 23px;
+}
+
+.homePageTopSec_searchBarSelectCont {
+  width: 23%;
+  height: inherit;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.homePageTopSec_searchBarSelect {
+  width: 80%;
+  height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+  background-color: transparent;
+  color: #363333;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.homePageTopSec_searchBarSelectIcon {
+  width: 15px;
+  height: 9px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 1230px) {
+  .homePageTopSec_content {
+    margin-left: 5%;
+    padding-top: 9%;
+  }
+
+  .homePageTopSec_searchBar {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  
+  .homePageTopSec_content {
+    width: 90%;
+    margin: 0 auto !important;
+    padding-top: 9%;
+  }
+
+  .homePageTopSec_searchBar {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  .homePageTopSec_content {
+    width: 90%;
+    margin: 0 auto !important;
+    padding-top: 9%;
+  }
+
+  .homePageTopSec_searchBar {
+    width: 95%;
+    height: 60px;
+  }
+
+  .homePageTopSec_searchBarSearchBtn {
+    width: 44px;
+    height: 44px;
+    margin-right: -10px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .homePageTopSec_searchBar {
+    height: 50px;
+  }
+
+  .homePageTopSec_searchBarInput {
+    width: 85%;
+    margin-left: 7px;
+    font-size: 15px;
+  }
+
+  .homePageTopSec_searchBarDateInput {
+    width: 94%;
+    margin-left: 4px;
+    font-size: 14px;
+  }
+
+  .homePageTopSec_searchBarInput::placeholder {
+    font-size: 15px;
+    margin-left: 7px;
+  }
+
+  .homePageTopSec_searchBarSelect {
+    font-size: 15px;
+    margin-left: 4px;
+  }
+
+  .homePageTopSec_searchBarSelectIcon {
+    width: 13px;
+    height: 7px;
+    margin: 0 2px;
+  }
+
+  .homePageTopSec_searchBarSearchBtn {
+    width: 34px;
+    height: 34px;
+    margin-right: -10px;
+  }
+
+  .homePageTopSec_searchBarSearchBtnIcon {
+    width: 17px;
+    height: 21px;
+  }
+}
+
+@media screen and (max-width: 716px) {
+  .homePageTopSec_background {
+    background-size: cover;
+    background-position: right;
+  }
+
+  .homePageTopSec_content {
+    width: 99%;
+  }
+
+  .homePageTopSec_searchBar {
+    width: 95%;
+    height: 50px;
+  }
+
+  .homePageTopSec_searchBarSelect {
+    margin-left: 4px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .homePageTopSec_background {
+    height: 60vh;
+    min-height: 420px !important;
+  }
+  .homePageTopSec_content {
+    width: 85%;
+    margin: 0 auto !important;
+    padding-top: 9%;
+  }
+
+  .homePageTopSec_searchBarHeading {
+    margin-left: 10px;
+  }
+
+  .homePageTopSec_searchBar {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0;
+  }
+
+  .homePageTopSec_searchBarInputCont {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .homePageTopSec_searchBarInput {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 17px;
+  }
+
+  .homePageTopSec_searchBarDateInput {
+    margin-left: 8px;
+  }
+
+  .homePageTopSec_searchBarInput::placeholder {
+    font-size: 17px;
+  }
+
+  .homePageTopSec_searchBarSelectCont {
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+  .homePageTopSec_searchBarSelect {
+    width: 85%;
+    font-size: 17px;
+    margin-left: 7px;
+    padding: 15px 0;
+  }
+
+  .homePageTopSec_searchBarSelectIcon {
+    margin: 0 5px;
+  }
+
+  .homePageTopSec_searchBarSearchBtnCont {
+    width: 100%;
+  }
+
+  .homePageTopSec_searchBarSearchBtn {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    background-color: #5bc2b0;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homePageTopSec_background {
+    height: 60vh;
+    background-size: cover;
+    background-position: right;
+  }
+
+  .homePageTopSec_content {
+    width: 90%;
+    margin: 0 auto !important;
+    padding-top: 9%;
+  }
+
+  .homePageTopSec_searchBar {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .homePageTopSec_content {
+    width: 100%;
+    margin: 0 auto !important;
+    padding-top: 9%;
+  }
+}
